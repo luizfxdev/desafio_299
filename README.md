@@ -187,7 +187,7 @@ Zebra, apple, Banana, cherry, Apple, dog
 
 ## 📝 Licença
 
-Este projeto é de código aberto e está disponível sob a licença MIT.
+Este projeto é desenvolvido para fins educacionais e de demonstração.
 
 ## 🤝 Contribuições
 
