@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Sombra Rubra do Guardião Demoníaco</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Vídeo de fundo -->
+    <video id="background-video" autoplay muted loop>
+      <source src="assets/background.mp4" type="video/mp4" />
+      Seu navegador não suporta vídeos HTML5.
+    </video>
+
+    <!-- Container Principal -->
+    <div class="main-container">
+      <div class="challenge-header">
+        <h1>🔥 A Sombra Rubra do Guardião Demoníaco</h1>
+        <p>Derrote o guardião ancestral ordenando corretamente os elementos!</p>
+      </div>
+
+      <!-- Área de Entrada -->
+      <div class="input-section">
+        <label for="data-input">Digite os elementos separados por vírgula:</label>
+        <input type="text" id="data-input" placeholder="Ex: banana, apple, 3, 2, Cherry, apple, 1" tabindex="1" />
+        <small>Insira números e palavras separados por vírgula</small>
+      </div>
+
+      <!-- Área dos Botões -->
+      <div class="buttons-section">
+        <button class="glow-on-hover" id="sort-btn" type="button" tabindex="2">ORDENAR</button>
+        <button class="glow-on-hover" id="return-btn" type="button" tabindex="3">RETORNAR</button>
+      </div>
+
+      <!-- Seção de Resultado -->
+      <div class="result-section" id="result-section">
+        <h3>🗡️ Resultado do Duelo</h3>
+        <div class="result-content" id="result-content">
+          <!-- O resultado aparecerá aqui -->
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
